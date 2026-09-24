@@ -130,7 +130,7 @@ cibergobernanza/
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/cibergobernanza.git
+git clone https://github.com/Andrewsko/cibergobernanza.git
 cd cibergobernanza
 ```
 
