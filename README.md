@@ -1,4 +1,4 @@
-# 🛡️ CiberGobernanza: Plataforma Abierta de Convergencia Multi-Marco
+# 🛡️ CiberGobernanza: Plataforma Abierta de Convergencia Multi-Marco NIST 2.0 X 27001:2022
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![NIST CSF 2.0](https://img.shields.io/badge/Framework-NIST%20CSF%202.0-00E5FF.svg)](https://www.nist.gov/cyberframework)
