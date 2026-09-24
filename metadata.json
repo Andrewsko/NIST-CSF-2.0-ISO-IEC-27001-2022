@@ -1,0 +1,8 @@
+{
+  "name": "CiberGobernanza: ISO 27001 a NIST CSF 2.0",
+  "description": "Plataforma integral de cibergobernanza con motor de ingesta y fusión de marcos regulatorios en PDF (DORA, SOC 2, ISO 27701, ISO 31000, NIS2), mapeo cruzado contra NIST CSF 2.0 y ISO/IEC 27001:2022, enforcement de salvaguardas no negociables y telemetría para auditoría.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Cyber Backgrounds & Grid */
+  .cyber-grid {
+    background-size: 32px 32px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  }
+
+  .cyber-dots {
+    background-size: 24px 24px;
+    background-image: radial-gradient(circle, rgba(0, 240, 255, 0.08) 1px, transparent 1px);
+  }
+
+  .cyber-glow-cyan {
+    box-shadow: 0 0 20px -3px rgba(6, 182, 212, 0.25);
+  }
+
+  .cyber-glow-emerald {
+    box-shadow: 0 0 20px -3px rgba(16, 185, 129, 0.25);
+  }
+
+  .cyber-glow-amber {
+    box-shadow: 0 0 20px -3px rgba(245, 158, 11, 0.25);
+  }
+
+  .cyber-glow-gold {
+    box-shadow: 0 0 20px -3px rgba(192, 160, 128, 0.25);
+  }
+
+  .scanline {
+    background: linear-gradient(
+      to bottom,
+      rgba(255,255,255,0),
+      rgba(255,255,255,0) 50%,
+      rgba(0, 240, 255, 0.03) 50%,
+      rgba(0, 240, 255, 0.03)
+    );
+    background-size: 100% 4px;
+  }
+}
+
+/* Custom Cyber Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07090e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #06b6d4;
+}
